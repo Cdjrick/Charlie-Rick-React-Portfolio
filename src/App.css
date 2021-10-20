@@ -3,6 +3,10 @@ html body {
   color: white;
 }
 
+.pages {
+  min-height: calc(100vh - 121px - 97px);
+}
+
 a {
   color: white;
 }

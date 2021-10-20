@@ -1,13 +1,18 @@
 import React from 'react'
 
+import Project from './Project'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap'
+import { Container, Row, } from 'react-bootstrap'
 
 const Projects = () => {
+
     return (
         <div>
             <Container className='mt-5'>
-                <h3>Projects</h3>
+                <Row>
+                        <Project />
+                </Row>
             </Container>
         </div>
     )

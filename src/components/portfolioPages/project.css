@@ -1,0 +1,29 @@
+.card {
+    color: black;
+}
+
+.deployedLink:visited, a:link {
+    color: black;
+}
+
+.deployedLink:hover {
+    color: grey;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.imgContainer img {
+    display: block;
+}
+
+.githubIcon {
+    position: absolute;
+    right: 0;
+}
+
+.githubIcon:hover {
+    opacity: 50%;
+}
+

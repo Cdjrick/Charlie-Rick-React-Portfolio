@@ -1,18 +1,18 @@
 import React from "react";
 
 import AboutMe from './AboutMe'
-import Projects from './Projects'
+import Portfolio from './Portfolio'
 import Resume from './Resume'
 import ContactMe from './ContactMe'
 
-const Portfolio = (props) => {
+const Pages = (props) => {
 
     const renderPage = () => {
         switch (props.currentPage) {
             case 'About Me':
                 return <AboutMe />
-            case 'Projects':
-                return <Projects />
+            case 'Portfolio':
+                return <Portfolio />
             case 'Resume':
                 return <Resume />
             case 'Contact Me':
@@ -29,4 +29,4 @@ const Portfolio = (props) => {
     )
 }
 
-export default Portfolio
+export default Pages

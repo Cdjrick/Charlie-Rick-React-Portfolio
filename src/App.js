@@ -10,17 +10,17 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='navBar'>
-        <Header currentPage={currentPage} handlePageChange={setCurrentPage}/>
-      </div>
+        <div className='navBar'>
+          <Header currentPage={currentPage} handlePageChange={setCurrentPage} />
+        </div>
 
-      <div>
-        <Pages currentPage={currentPage}/>
-      </div>
-      
-      <div>
-        <Footer />
-      </div>
+        <div className='pages'>
+          <Pages currentPage={currentPage} />
+        </div>
+
+        <div>
+          <Footer />
+        </div>
     </div>
   )
 }

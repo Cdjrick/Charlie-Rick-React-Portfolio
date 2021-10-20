@@ -8,14 +8,17 @@ const AboutMe = () => {
         <div>
             <Container className='mt-5'>
                 <Row>
-                <h3 className='aboutMe'>About me</h3>
+                    <h3 className='aboutMe'>About me</h3>
                 </Row>
                 <Row className='mt-3'>
                     <p>
-                        My name is Charlie Rick. I am currently looking for a job in the field of Mobile Development, Web Development, User Interface Design or User Experience 
+                        My name is Charlie Rick. I am currently looking for a job in the field of Mobile Development, Web Development, User Interface Design or User Experience
                         Design. I attended a 2 year course at Algonquin College for Mobile App Design and Development, and then a 6 month Carleton University Coding Bootcamp.
-                        Over this time I have obtained many important skills outlined on my resume, including but not limited to react, handlebars, nodeJS, express, bootstrap, 
-                        mongodb, mysql, UX design, UI design and more.
+                        I also have some experience working as a QA tester.
+                    </p>
+                    <p>
+                        Over this time I have obtained many important skills outlined on my resume, including but not
+                        limited to Jira, react, handlebars, nodeJS, express, bootstrap, mongodb, mysql, UX design, UI design and more.
                     </p>
                     <p>
                         Please take a look at my portfolio to see projects I have created or worked on over the time I was in school.

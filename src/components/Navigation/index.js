@@ -5,7 +5,7 @@ import './nav.css'
 
 const Nav = (props) => {
 
-    const tabs = ['About Me', 'Projects', 'Resume', 'Contact Me']
+    const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact Me']
 
     return (
         <div>

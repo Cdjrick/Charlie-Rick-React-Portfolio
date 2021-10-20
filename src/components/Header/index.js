@@ -11,9 +11,9 @@ const Header = (props) => {
             <Container className='mt-3'>
                 <header>
                     <Row>
-                        <Col xs={6} > <h1>Charlie Rick</h1> </Col>
+                        <Col xs={12} lg={6} > <h1>Charlie Rick</h1> </Col>
 
-                        <Col xs={6}> <Nav currentPage={props.currentPage} handlePageChange={props.handlePageChange}/> </Col>
+                        <Col xs={12} lg={6}> <Nav currentPage={props.currentPage} handlePageChange={props.handlePageChange}/> </Col>
                     </Row>
                 </header>
             </Container>
